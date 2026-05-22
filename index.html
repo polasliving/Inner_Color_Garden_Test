@@ -76,7 +76,7 @@ body::before {
   display: inline-flex;
   align-items: center;
   gap: .55rem;
-  background: rgba(200,150,126,.09);
+  background: #F5DDD6;
   border: 1px solid var(--border-strong);
   border-radius: 30px;
   padding: .32rem 1.1rem;
@@ -153,7 +153,8 @@ body::before {
   transition: background .3s, color .3s;
   text-decoration: none;
 }
-.btn-ghost:hover { background: var(--rose-gold); color: var(--paper); }
+.btn-ghost:hover { background: #f5ddd6; color: var(--rose-gold); }
+.btn-ghost:active { background: #edcfc6; color: var(--rose-gold); }
 
 .collab-note {
   margin-top: 2.8rem;
@@ -467,7 +468,8 @@ body::before {
   pointer-events: none;
 }
 .btn-next.show { opacity: 1; pointer-events: auto; }
-.btn-next:hover { background: var(--rose-gold); color: var(--paper); }
+.btn-next:hover { background: #f5ddd6; color: var(--rose-gold); }
+.btn-next:active { background: #edcfc6; color: var(--rose-gold); }
 
 /* ════════════════════════
    SCREEN 4 · RESULT
@@ -607,7 +609,8 @@ body::before {
   opacity: .55;
   transition: opacity .25s;
 }
-.btn-restart:hover { opacity: 1; }
+.btn-restart:hover { opacity: 1; background: #f5ddd6; color: var(--rose-gold); border-color: var(--rose-gold); }
+.btn-restart:active { background: #edcfc6; }
 
 /* ── RESPONSIVE ── */
 @media (max-width: 400px) {
@@ -751,7 +754,7 @@ body::before {
 <div id="screen-landing" class="screen active">
   <div class="event-badge fu">
     <span class="dot">✦</span>
-    催眠 × 色彩深度體驗
+    自我催眠 × 心流色彩深度體驗
     <span class="dot">✦</span>
   </div>
 
